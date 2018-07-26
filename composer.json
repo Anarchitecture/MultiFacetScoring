@@ -1,0 +1,20 @@
+{
+  "name": "anarchitecture/multifacetscoring",
+  "description": "Library for implementing multi-faceted scoring algorithms.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Laurens Hoek",
+      "homepage": "http://laurens.hk"
+    }
+  ],
+  "autoload": {
+    "psr-4" : {
+      "Anarchitecture\\MultiFacetScoring\\" : "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
